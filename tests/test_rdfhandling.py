@@ -1,6 +1,8 @@
 import pytest
 from rdflib.term import URIRef, Literal
-from rdfhandling import RDFHandler, SHACL
+# from rdfhandling import RDFHandler, SHACL
+from shaclform.rdfhandling import RDFHandler, SHACL
+# from shaclform import generate_form, rdfhandling
 
 
 def test_empty_file():

@@ -3,7 +3,8 @@ import pytest
 import filecmp
 import copy
 import shutil
-from generate_form import generate_form, sort_composite_property, assign_id, check_property, find_paired_properties
+# from generate_form import generate_form, sort_composite_property, assign_id, check_property, find_paired_properties
+from shaclform import generate_form, rdfhandling
 
 
 def test_no_filename():

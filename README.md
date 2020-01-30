@@ -247,3 +247,8 @@ If sh:closed is absent, it will be assumed that it is equal to False.
 
 If a Shape is closed, its form will also contain input fields for
 properties specified in sh:ignoredProperties.
+
+## pip install for tests/test_main.py
+- pip install -r requirements.txt
+- pip install -e .
+- pip install shaclform
